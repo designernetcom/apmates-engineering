@@ -623,10 +623,6 @@ a {
 
 /* Tablet */
 @media (max-width: 1199.98px) {
-  .hero {
-    padding-top: 85px;
-  }
-
   .hero h1 {
     font-size: clamp(38px, 4.5vw, 54px);
     letter-spacing: -1.5px;
@@ -668,10 +664,6 @@ a {
 
 /* Mobile */
 @media (max-width: 991.98px) {
-  .hero {
-    padding-top: 75px;
-  }
-
   .hero .row {
     padding-bottom: 65px;
   }
@@ -717,10 +709,6 @@ a {
 
 /* Small mobile */
 @media (max-width: 575.98px) {
-  .hero {
-    padding-top: 55px;
-  }
-
   .hero .row {
     padding-bottom: 45px;
   }
@@ -3750,9 +3738,7 @@ a {
   .section {
     padding: 4rem 0;
   }
-  .hero {
-    padding: 3.5rem 0 5rem;
-  }
+
   .chip {
     display: none;
   }
