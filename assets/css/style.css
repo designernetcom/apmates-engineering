@@ -4881,3 +4881,7 @@ a {
 }
 
 /* ==================== END FOOTER CSS ==================== */
+.topbar-info a {
+  color: var(--soft);
+  text-decoration: none;
+}
