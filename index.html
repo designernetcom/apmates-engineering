@@ -80,11 +80,11 @@
           <!-- Logo -->
           <a
             class="navbar-brand"
-            href="#top"
+            href="index.html"
             aria-label="APMates Engineering Home"
           >
             <img
-              src="https://www.apmatesengineering.com/assets/img/logo.png"
+              src="assets/img/logo.png"
               alt="APMates Engineering"
               class="header-logo"
             />
@@ -111,13 +111,14 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="">About Us</a>
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
 
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href=""
+                  href="products.html
+                  "
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -134,7 +135,7 @@
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#products">
+                    <a class="dropdown-item" href="">
                       <i class="bi bi-box-seam"></i>
                       Plastic Auxiliary Equipment
                     </a>
@@ -143,7 +144,7 @@
                   <li><hr class="dropdown-divider" /></li>
 
                   <li>
-                    <a class="dropdown-item dropdown-all" href="#products">
+                    <a class="dropdown-item dropdown-all" href="">
                       Explore All Products
                       <i class="bi bi-arrow-right"></i>
                     </a>
@@ -152,15 +153,14 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="industries.html">Industries</a>
               </li>
-
               <li class="nav-item">
-                <a class="nav-link" href="#industries">Industries</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
 
               <li class="nav-item ms-lg-3 quote-item">
-                <a class="btn btn-brand" href="#contact">
+                <a class="btn btn-brand" href="contact.html">
                   <span>Contact Us</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </a>
@@ -209,12 +209,301 @@
         </div>
       </section>
 
-      <!-- ===== ABOUT ===== -->
+      <section class="industries-section" aria-labelledby="industry-heading">
+        <div class="industry-technical-line"></div>
 
-      <section class="about-section section" id="about">
+        <div class="container industry-container">
+          <!-- Section heading -->
+          <div class="industry-header">
+            <div class="industry-heading-block">
+              <div class="industry-topline">Our industry expertise</div>
+
+              <h2 class="industry-heading" id="industry-heading">
+                Engineering across
+                <span>industries.</span>
+              </h2>
+            </div>
+
+            <!-- Slider controls -->
+            <div class="industry-controls">
+              <div class="industry-count">
+                <strong id="industry-current">01</strong>
+                <span> / 08</span>
+              </div>
+
+              <button
+                class="industry-arrow"
+                id="industry-prev"
+                type="button"
+                aria-label="Previous industry"
+              >
+                <i class="bi bi-arrow-left"></i>
+              </button>
+
+              <button
+                class="industry-arrow"
+                id="industry-next"
+                type="button"
+                aria-label="Next industry"
+              >
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Auto sliding industry cards -->
+          <div class="industry-slider" id="industry-slider">
+            <div class="industry-track" id="industry-track">
+              <!-- 01 Food -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=750&q=85"
+                    alt="Industrial food processing equipment"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">01</span>
+                  <div class="industry-image-label">
+                    <span>Process industry</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Food Processing</h3>
+                  <p>
+                    Process solutions designed to support efficient food
+                    production.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 02 Pharma -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1581093458791-9d42e3c8b5b7?auto=format&fit=crop&w=750&q=85"
+                    alt="Pharmaceutical laboratory and equipment"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">02</span>
+                  <div class="industry-image-label">
+                    <span>Precision systems</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Pharmaceuticals</h3>
+                  <p>
+                    Engineering support for demanding pharmaceutical processes.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 03 Chemical -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1565608438257-fac3c27beb36?auto=format&fit=crop&w=750&q=85"
+                    alt="Chemical processing plant and pipework"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">03</span>
+                  <div class="industry-image-label">
+                    <span>Process engineering</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Chemical Industry</h3>
+                  <p>
+                    Process-focused solutions for chemical manufacturing
+                    facilities.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 04 Plastic -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=750&q=85"
+                    alt="Plastic manufacturing machinery"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">04</span>
+                  <div class="industry-image-label">
+                    <span>Manufacturing</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Plastic Industry</h3>
+                  <p>
+                    Supporting industrial processes in plastic production
+                    facilities.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 05 Powder Coating -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=750&q=85"
+                    alt="Industrial metal fabrication and finishing"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">05</span>
+                  <div class="industry-image-label">
+                    <span>Surface finishing</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Powder Coating</h3>
+                  <p>
+                    Process support for coating and industrial finishing
+                    operations.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 06 Automobiles -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=750&q=85"
+                    alt="Automotive workshop and mechanical systems"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">06</span>
+                  <div class="industry-image-label">
+                    <span>Automotive systems</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Automobiles</h3>
+                  <p>
+                    Engineering solutions for automotive production
+                    environments.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 07 Heat Exchangers and Boilers -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=750&q=85"
+                    alt="Industrial engineering and mechanical equipment"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">07</span>
+                  <div class="industry-image-label">
+                    <span>Thermal systems</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Heat Exchangers &amp; Boilers</h3>
+                  <p>
+                    Process equipment applications for industrial thermal
+                    systems.
+                  </p>
+                </div>
+              </article>
+
+              <!-- 08 Water Treatment -->
+              <article class="industry-card">
+                <div class="industry-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=750&q=85"
+                    alt="Water treatment and industrial infrastructure"
+                    loading="lazy"
+                  />
+                  <span class="industry-number">08</span>
+                  <div class="industry-image-label">
+                    <span>Water management</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </div>
+                </div>
+                <div class="industry-card-content">
+                  <h3>Water Treatment</h3>
+                  <p>
+                    Engineering support for water and wastewater treatment
+                    processes.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Slider progress -->
+          <div class="industry-slider-footer">
+            <div
+              class="industry-progress"
+              role="progressbar"
+              aria-label="Industry slider progress"
+              aria-valuemin="1"
+              aria-valuemax="8"
+              aria-valuenow="1"
+              id="industry-progress"
+            >
+              <div
+                class="industry-progress-bar"
+                id="industry-progress-bar"
+              ></div>
+            </div>
+
+            <div class="industry-footer-text">
+              EXPLORE OUR <span>EXPERTISE</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-apmates">
+        <div class="container">
+          <div class="about-apmates-grid">
+            <!-- LEFT SECTION -->
+            <div class="about-apmates-left">
+              <div class="about-apmates-label">
+                <span></span>
+                ABOUT APMATES
+              </div>
+
+              <h2>
+                Engineering Solutions
+                <span>Driven by Industry Expertise</span>
+              </h2>
+
+              <div class="about-apmates-line"></div>
+            </div>
+
+            <!-- RIGHT SECTION -->
+            <div class="about-apmates-right">
+              <p class="about-apmates-intro">
+                At Apmates Engineering, we combine innovation, technical
+                expertise, and comprehensive domain knowledge to deliver
+                dependable solutions for demanding industrial applications.
+              </p>
+
+              <p class="about-apmates-description">
+                We serve the plastic, food processing, pharmaceutical, and
+                chemical sectors with a commitment to quality, customer
+                satisfaction, and continuous improvement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <!-- <section class="about-section section" id="about">
         <div class="container">
           <div class="row align-items-center g-4 g-lg-5">
-            <!-- About Image -->
+          
             <div class="col-lg-6">
               <div class="about-section-image">
                 <div class="about-image-frame">
@@ -240,7 +529,7 @@
               </div>
             </div>
 
-            <!-- About Content -->
+          
             <div class="col-lg-6">
               <div class="about-section-content">
                 <span class="about-eyebrow"> <span></span> ABOUT APMATES </span>
@@ -262,7 +551,7 @@
                   satisfaction, and continuous improvement.
                 </p>
 
-                <!-- Vision -->
+             
                 <div class="about-info-item">
                   <div class="about-info-icon">
                     <i class="bi bi-eye"></i>
@@ -277,7 +566,7 @@
                   </div>
                 </div>
 
-                <!-- Mission -->
+             
                 <div class="about-info-item">
                   <div class="about-info-icon">
                     <i class="bi bi-bullseye"></i>
@@ -293,7 +582,7 @@
                   </div>
                 </div>
 
-                <!-- Values -->
+               
                 <div class="about-info-item">
                   <div class="about-info-icon">
                     <i class="bi bi-shield-check"></i>
@@ -315,7 +604,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- ===== PRODUCTS ===== -->
 
@@ -348,7 +637,7 @@
               <div class="apnp-category">
                 <div class="apnp-category-hero">
                   <img
-                    src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=1100&q=85"
+                    src="assets/img/processing-industrial-section.jpg"
                     alt="Industrial processing equipment"
                   />
 
@@ -430,12 +719,38 @@
                           <h4>Automation Solutions</h4>
                         </div>
                       </article>
+                      <article class="apnp-product">
+                        <a href="#" class="apnp-product-image">
+                          <img
+                            src="https://www.apmatesengineering.com/assets/img/product/gmp-reactor-vessel.jpg"
+                            alt="Industrial automation"
+                          />
+                          <span class="apnp-image-arrow">↗</span>
+                        </a>
+                        <div class="apnp-product-info">
+                          <span>05 / AUTOMATION</span>
+                          <h4>GMP Reactor Vessels</h4>
+                        </div>
+                      </article>
+                      <article class="apnp-product">
+                        <a href="#" class="apnp-product-image">
+                          <img
+                            src="https://www.apmatesengineering.com/assets/img/product/heat-exchanger.jpg"
+                            alt="Industrial automation"
+                          />
+                          <span class="apnp-image-arrow">↗</span>
+                        </a>
+                        <div class="apnp-product-info">
+                          <span>06 / AUTOMATION</span>
+                          <h4>Heat Exchangers</h4>
+                        </div>
+                      </article>
                     </div>
                   </div>
 
                   <div class="apnp-slider-footer">
                     <div class="apnp-slider-count">
-                      <strong>01</strong> <span>/ 04</span>
+                      <strong>01</strong> <span>/ 06</span>
                     </div>
 
                     <div class="apnp-progress">
@@ -468,7 +783,7 @@
               <div class="apnp-category">
                 <div class="apnp-category-hero">
                   <img
-                    src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=1100&q=85"
+                    src="assets/img/plastic-industry.avif"
                     alt="Plastic manufacturing equipment"
                   />
 
@@ -498,13 +813,26 @@
                       <article class="apnp-product">
                         <a href="#" class="apnp-product-image">
                           <img
+                            src="https://www.apmatesengineering.com/assets/img/product/portable-descaling-machine.jpg"
+                            alt="Descaling Machine"
+                          />
+                          <span class="apnp-image-arrow">↗</span>
+                        </a>
+                        <div class="apnp-product-info">
+                          <span>01 / PRODUCTION</span>
+                          <h4>Descaling Machine</h4>
+                        </div>
+                      </article>
+                      <article class="apnp-product">
+                        <a href="#" class="apnp-product-image">
+                          <img
                             src="https://www.apmatesengineering.com/assets/img/product/hopper-loader.jpg"
                             alt="Plastic moulding machinery"
                           />
                           <span class="apnp-image-arrow">↗</span>
                         </a>
                         <div class="apnp-product-info">
-                          <span>01 / MOULDING</span>
+                          <span>02 / MOULDING</span>
                           <h4>Hopper Loader</h4>
                         </div>
                       </article>
@@ -518,7 +846,7 @@
                           <span class="apnp-image-arrow">↗</span>
                         </a>
                         <div class="apnp-product-info">
-                          <span>02 / EXTRUSION</span>
+                          <span>03 / EXTRUSION</span>
                           <h4>Temperaturre Controller Unit</h4>
                         </div>
                       </article>
@@ -532,7 +860,7 @@
                           <span class="apnp-image-arrow">↗</span>
                         </a>
                         <div class="apnp-product-info">
-                          <span>03 / MATERIALS</span>
+                          <span>04 / MATERIALS</span>
                           <h4>Portable Descaling Machine</h4>
                         </div>
                       </article>
@@ -546,8 +874,35 @@
                           <span class="apnp-image-arrow">↗</span>
                         </a>
                         <div class="apnp-product-info">
-                          <span>04 / PRODUCTION</span>
+                          <span>05 / PRODUCTION</span>
                           <h4>Red Silicon Hope Pipe</h4>
+                        </div>
+                      </article>
+
+                      <article class="apnp-product">
+                        <a href="#" class="apnp-product-image">
+                          <img
+                            src="https://www.apmatesengineering.com/assets/img/product/hot-air-dryer.jpg"
+                            alt="Plastic production equipment"
+                          />
+                          <span class="apnp-image-arrow">↗</span>
+                        </a>
+                        <div class="apnp-product-info">
+                          <span>06 / PRODUCTION</span>
+                          <h4>Hot Air Dryer</h4>
+                        </div>
+                      </article>
+                      <article class="apnp-product">
+                        <a href="#" class="apnp-product-image">
+                          <img
+                            src="https://www.apmatesengineering.com/assets/img/product/hot-air-dryer.jpg"
+                            alt="Industrial Chiller"
+                          />
+                          <span class="apnp-image-arrow">↗</span>
+                        </a>
+                        <div class="apnp-product-info">
+                          <span>07 / PRODUCTION</span>
+                          <h4>Industrial Chiller</h4>
                         </div>
                       </article>
                     </div>
@@ -555,7 +910,7 @@
 
                   <div class="apnp-slider-footer">
                     <div class="apnp-slider-count">
-                      <strong>01</strong> <span>/ 04</span>
+                      <strong>01</strong> <span>/ 06</span>
                     </div>
 
                     <div class="apnp-progress">
@@ -617,7 +972,7 @@
                 </div>
 
                 <div class="svc-redesign-card-content">
-                  <span class="svc-redesign-label">ENGINEERING</span>
+                  <!-- <span class="svc-redesign-label">ENGINEERING</span> -->
                   <h3>Industrial Fabrication</h3>
                   <p>
                     Precision fabrication solutions for all types of mild steel
@@ -625,11 +980,11 @@
                   </p>
                 </div>
 
-                <div class="svc-redesign-card-bottom">
+                <!-- <div class="svc-redesign-card-bottom">
                   <span>Built for durability</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </div>
-                <span class="svc-redesign-card-glow"></span>
+                <span class="svc-redesign-card-glow"></span> -->
               </article>
             </div>
 
@@ -643,7 +998,7 @@
                 </div>
 
                 <div class="svc-redesign-card-content">
-                  <span class="svc-redesign-label">SMART TECHNOLOGY</span>
+                  <!-- <span class="svc-redesign-label">SMART TECHNOLOGY</span> -->
                   <h3>Industrial Automation</h3>
                   <p>
                     Industrial automation solutions and electrical spares to
@@ -651,11 +1006,11 @@
                   </p>
                 </div>
 
-                <div class="svc-redesign-card-bottom">
+                <!-- <div class="svc-redesign-card-bottom">
                   <span>Smarter operations</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </div>
-                <span class="svc-redesign-card-glow"></span>
+                <span class="svc-redesign-card-glow"></span> -->
               </article>
             </div>
 
@@ -669,7 +1024,7 @@
                 </div>
 
                 <div class="svc-redesign-card-content">
-                  <span class="svc-redesign-label">PLASTIC INDUSTRY</span>
+                  <!-- <span class="svc-redesign-label">PLASTIC INDUSTRY</span> -->
                   <h3>Plastic Auxiliary Equipment</h3>
                   <p>
                     Manufacturing of plastic auxiliary equipment tailored to
@@ -677,11 +1032,11 @@
                   </p>
                 </div>
 
-                <div class="svc-redesign-card-bottom">
+                <!-- <div class="svc-redesign-card-bottom">
                   <span>Production support</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </div>
-                <span class="svc-redesign-card-glow"></span>
+                <span class="svc-redesign-card-glow"></span> -->
               </article>
             </div>
 
@@ -695,7 +1050,7 @@
                 </div>
 
                 <div class="svc-redesign-card-content">
-                  <span class="svc-redesign-label">MAINTENANCE</span>
+                  <!-- <span class="svc-redesign-label">MAINTENANCE</span> -->
                   <h3>Reconditioning</h3>
                   <p>
                     Reconditioning of auxiliary machines to help restore
@@ -703,11 +1058,11 @@
                   </p>
                 </div>
 
-                <div class="svc-redesign-card-bottom">
+                <!-- <div class="svc-redesign-card-bottom">
                   <span>Extend equipment life</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </div>
-                <span class="svc-redesign-card-glow"></span>
+                <span class="svc-redesign-card-glow"></span> -->
               </article>
             </div>
 
@@ -721,7 +1076,7 @@
                 </div>
 
                 <div class="svc-redesign-card-content">
-                  <span class="svc-redesign-label">SERVICE &amp; SUPPORT</span>
+                  <!-- <span class="svc-redesign-label">SERVICE &amp; SUPPORT</span> -->
                   <h3>Fast &amp; Quick Service</h3>
                   <p>
                     Responsive service and support across our industrial
@@ -729,11 +1084,11 @@
                   </p>
                 </div>
 
-                <div class="svc-redesign-card-bottom">
+                <!-- <div class="svc-redesign-card-bottom">
                   <span>Reliable assistance</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </div>
-                <span class="svc-redesign-card-glow"></span>
+                <span class="svc-redesign-card-glow"></span> -->
               </article>
             </div>
 
@@ -747,7 +1102,7 @@
                 </div>
 
                 <div class="svc-redesign-card-content">
-                  <span class="svc-redesign-label">CUSTOM ENGINEERING</span>
+                  <!-- <span class="svc-redesign-label">CUSTOM ENGINEERING</span> -->
                   <h3>Customized Solutions</h3>
                   <p>
                     Innovative, application-specific solutions for the plastic,
@@ -755,11 +1110,11 @@
                   </p>
                 </div>
 
-                <div class="svc-redesign-card-bottom">
+                <!-- <div class="svc-redesign-card-bottom">
                   <span>Designed around your needs</span>
                   <i class="bi bi-arrow-up-right"></i>
                 </div>
-                <span class="svc-redesign-card-glow"></span>
+                <span class="svc-redesign-card-glow"></span> -->
               </article>
             </div>
           </div>
@@ -1074,10 +1429,11 @@
                 <p class="what-we-do__intro">
                   We provide a wide range of auxiliary equipment and services
                   tailored to meet the diverse needs of the plastic
-                  manufacturing industry. Our expertise also extends to
+                  manufacturing industry.
+                  <!-- Our expertise also extends to
                   industrial automation, electrical spares, and fabrication in
                   mild and stainless steel, delivering robust solutions that
-                  support your production processes.
+                  support your production processes. -->
                 </p>
 
                 <!-- Services -->
@@ -1154,10 +1510,14 @@
                   </span>
 
                   <div class="what-we-do__tags">
-                    <span>Plastic</span>
                     <span>Food</span>
                     <span>Pharma</span>
                     <span>Chemical</span>
+                    <span>Plastic</span>
+                    <span>Powder Coating</span>
+                    <span>Automobiles</span>
+                    <span>Heat Exchangers and Boilers</span>
+                    <span>Water treatment</span>
                   </div>
                 </div>
 
@@ -1857,6 +2217,169 @@
           observer.observe(element);
         });
       });
+    </script>
+
+    <script>
+      (() => {
+        const slider = document.getElementById("industry-slider");
+        const track = document.getElementById("industry-track");
+        const prevButton = document.getElementById("industry-prev");
+        const nextButton = document.getElementById("industry-next");
+        const currentDisplay = document.getElementById("industry-current");
+        const progressBar = document.getElementById("industry-progress-bar");
+        const progress = document.getElementById("industry-progress");
+
+        const originalCards = Array.from(track.children);
+        const total = originalCards.length;
+
+        if (!total) return;
+
+        // Clone the first cards to create a seamless loop.
+        originalCards.forEach((card) => {
+          const clone = card.cloneNode(true);
+          clone.setAttribute("aria-hidden", "true");
+          clone.querySelectorAll("img").forEach((img) => (img.alt = ""));
+          track.appendChild(clone);
+        });
+
+        let index = 0;
+        let timer;
+        let step = 0;
+        let visible = 4;
+        let startX = 0;
+
+        const reducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        );
+
+        function getVisibleCount() {
+          if (window.innerWidth <= 575) return 1;
+          if (window.innerWidth <= 991) return 2;
+          return 4;
+        }
+
+        function measure() {
+          visible = getVisibleCount();
+          const card = track.querySelector(".industry-card");
+          if (!card) return;
+
+          const gap = parseFloat(getComputedStyle(track).gap) || 0;
+          step = card.getBoundingClientRect().width + gap;
+
+          // Avoid showing an empty tail on smaller screens.
+          if (index >= total) index = 0;
+          render(false);
+        }
+
+        function render(animate = true) {
+          track.style.transition = animate
+            ? "transform .7s cubic-bezier(.22, .61, .36, 1)"
+            : "none";
+
+          track.style.transform = `translate3d(${-index * step}px, 0, 0)`;
+
+          const active = (index % total) + 1;
+          currentDisplay.textContent = String(active).padStart(2, "0");
+
+          progressBar.style.width = `${(active / total) * 100}%`;
+          progress.setAttribute("aria-valuenow", active);
+        }
+
+        function next() {
+          if (index >= total) return;
+          index++;
+          render();
+
+          if (index === total) {
+            window.setTimeout(() => {
+              if (index === total) {
+                index = 0;
+                render(false);
+              }
+            }, 720);
+          }
+        }
+
+        function previous() {
+          if (index === 0) {
+            // Jump to the matching cloned position, then animate backward.
+            index = total;
+            render(false);
+
+            requestAnimationFrame(() => {
+              requestAnimationFrame(() => {
+                index = total - 1;
+                render(true);
+              });
+            });
+            return;
+          }
+
+          index--;
+          render();
+        }
+
+        function stopAutoSlide() {
+          window.clearInterval(timer);
+        }
+
+        function startAutoSlide() {
+          stopAutoSlide();
+          if (reducedMotion.matches) return;
+
+          timer = window.setInterval(next, 3500);
+        }
+
+        nextButton.addEventListener("click", () => {
+          next();
+          startAutoSlide();
+        });
+
+        prevButton.addEventListener("click", () => {
+          previous();
+          startAutoSlide();
+        });
+
+        slider.addEventListener("mouseenter", stopAutoSlide);
+        slider.addEventListener("mouseleave", startAutoSlide);
+
+        slider.addEventListener("focusin", stopAutoSlide);
+        slider.addEventListener("focusout", startAutoSlide);
+
+        slider.addEventListener(
+          "touchstart",
+          (event) => {
+            startX = event.changedTouches[0].clientX;
+          },
+          { passive: true },
+        );
+
+        slider.addEventListener(
+          "touchend",
+          (event) => {
+            const difference = event.changedTouches[0].clientX - startX;
+
+            if (Math.abs(difference) > 45) {
+              difference < 0 ? next() : previous();
+              startAutoSlide();
+            }
+          },
+          { passive: true },
+        );
+
+        document.addEventListener("visibilitychange", () => {
+          document.hidden ? stopAutoSlide() : startAutoSlide();
+        });
+
+        window.addEventListener("resize", measure);
+
+        if (reducedMotion.addEventListener) {
+          reducedMotion.addEventListener("change", startAutoSlide);
+        }
+
+        measure();
+        startAutoSlide();
+      })();
     </script>
   </body>
 </html>
